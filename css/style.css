@@ -1,0 +1,55 @@
+/* Application a tout le docuemnt HTML */
+html {
+    font-family: cursive, sans-serif; /* Police de caractère */
+}
+
+header {
+    background-image: linear-gradient(rgba(196, 199, 240), rgba(43, 122, 226), rgba(196, 199, 240)); /*couleurs de fond dégradées*/
+}
+
+main {
+    
+    background-color: rgb(202, 202, 245); /*Couleur de fond*/
+}
+
+/* Titre principal*/
+h1 {
+    color: rgb(43, 55, 226); /*couleur du texte*/
+    text-align: center; /*Alignement du texte*/
+    text-decoration: underline;  /*Texte souligné*/
+}
+
+/* Titrtes secondaires*/
+h2 {
+    color: rgb(43, 122, 226);/*couleur du texte*/
+    text-align: left;/*Alignement du texte*/
+    text-decoration: underline;  /*Texte souligné*/
+}
+
+/* Mise en page de l'image */
+img {
+    display: block; /*Affichage en bloc*/
+    margin-left: auto; /*Marge à gauche automatique*/
+    margin-right: auto; /*Marge à droite automatique*/
+    width: 20%; /*Largeur de l'image 20% de la taille reelle*/
+    height: auto; /*Hauteur de l'image automatique par raport a la largeur*/
+}
+
+/* class coordonnées (adresse...) */
+.coordonnees {
+    text-align: center;/*Alignement du texte*/
+    color: grey;/*couleur du texte*/
+
+}
+
+/* class présentation (texte) */
+.presentation {
+    text-align: center;/*Alignement du texte*/
+    font-style: italic;
+
+}
+
+footer{
+    background-image: linear-gradient(rgba(196, 199, 240), rgba(43, 122, 226), rgba(196, 199, 240)); /*couleurs de fond dégradées*/
+}
+
