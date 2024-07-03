@@ -64,6 +64,9 @@ img {
 .presentation {
     text-align: center;/*Alignement du texte*/
     font-style: italic;
+    text-decoration: underline;  /*Texte souligné*/
+    color: rgb(1, 94, 74);/*couleur du texte*/
+    font-size: 1.1em; /*Taille de la police*/
 
 }
 
