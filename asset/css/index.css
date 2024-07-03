@@ -71,3 +71,17 @@ footer{
     background-image: linear-gradient(rgba(196, 199, 240), rgba(43, 122, 226), rgba(196, 199, 240)); /*couleurs de fond dégradées*/
 }
 
+button{
+    background-color: rgb(132, 36, 241); /*Couleur de fond*/
+    color: rgb(204, 193, 193); /*Couleur du texte*/
+    padding: 8px 15px; /*Marge intérieure*/
+    border: solid black; /*Bordure noire*/
+    border-radius: 10px; /*Bord arrondis*/
+    cursor: pointer; /*Curseur de la souris*/    
+    margin: 10px; /*Marge de 5px*/
+}
+
+button:hover{
+    background-color: rgb(241, 36, 138); /*Couleur de fond*/
+    color: rgb(22, 21, 21); /*Couleur du texte*/
+}
