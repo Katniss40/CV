@@ -9,23 +9,36 @@
 
 <body>
     <header>
-        <h1>Bourdeloux Corinne - Développeur WEB</h1>
+        <div class="box">
+            <div>
+                <h1>Bourdeloux Corinne - Développeur WEB</h1>
 
-            <img src="asset/fichiers/photo.png" alt="photo de Corinne Bourdeloux" class="photo">
-                <hr>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#experiences">Experiences</a></li>
+                        <li><a href="#formations">Formations</a></li>
+                        <li><a href="#hobbys">Hobbys</a></li>
+                    </ul>
+            </div>
 
-        <div class="coordonnees">
-            <a href="mailto:username@exemple.com">M@il : bourdeloux.corinne@orange.fr</a>
-            <br>               
-            <p> 417, Chemin du Yert<br>
-                40550 Léon<br>
-                Téléphone Prtable : 06.37.99.13.58<br>
-                Téléphone Fixe : 05.58.47.13.07<br>
-            </p>
+            <div>
+                <img src="asset/fichiers/photo.png" alt="photo de Corinne Bourdeloux" class="photo">
+            </div>
 
-            <a href="fichiers/cv suite.pdf"> Télécharger mon CV en cliquant !ICI!</a>      
+            <div class="coordonnees">
+                <a href="mailto:username@exemple.com">M@il : bourdeloux.corinne@orange.fr</a>
+                <br>               
+                <p> 417, Chemin du Yert<br>
+                  40550 Léon<br>
+                 Téléphone Prtable : 06.37.99.13.58<br>
+                 Téléphone Fixe : 05.58.47.13.07<br>
+                </p>
+
+                <a href="asset/fichiers/cv suite.pdf"> Télécharger mon CV en cliquant !ICI!</a>      
+            </div>
         </div>
-                <hr> 
+        
+        <hr>
     </header>
     
 <main>
@@ -33,7 +46,7 @@
         <p class="presentation">En parallele de mon activité professionnelle, j'ai suivi une formation de Développeur Web à l'ecole STUDI.</p>
 
         <section>
-            <h2>Experiences</h2>
+            <h2 id="experiences">Expériences</h2>
                 <ul>
                     <li>
                         <strong>2020 - Aujourd'hui | <span style="color: plum;">Chauffeur de Taxi</span></strong>
@@ -51,7 +64,7 @@
 
                 <ul>
                     <li>
-                        <strong>2015 - 2020 |<span style="color: plum;"> Chauffeur de VTC</span></strong>
+                        <strong>2015 - 2019 | <span style="color: plum;">Taxi/VTC</span></strong>
 
                             <ul>
                                 <li>Prise en charge de clients</li>
@@ -60,11 +73,41 @@
                                 <li>Organisation du planning</li>
                             </ul>
                     </li>
+                </ul>      
+                
+                <br>
+
+                <ul>
+                    <li>
+                        <strong>2014 - 2015 | <span style="color: plum;">Comptable</span></strong>
+
+                            <ul>
+                                <li>Gestions des caisses</li>
+                                <li>Controle bancaires</li>
+                                <li>Préparations des bilans</li>
+                                <li>Rapprochements bancaire</li>                            
+                            </ul>
+                    </li>
+                </ul>            
+
+                <br>
+
+                <ul>
+                    <li>
+                        <strong>2010 - 2014 | <span style="color: plum;">Responsable de caisse</span></strong>
+
+                            <ul>
+                                <li>Gestions des caisses</li>
+                                <li>Contrôle des caisses</li>
+                                <li>Litiges clients</li>
+                                <li>Enregistrement modifications articles/prix</li>
+                            </ul>
+                    </li>
                 </ul>            
         </section>
-        
+       <hr> 
         <section>
-            <h2>Formations</h2>
+            <h2 id="formations">Formations</h2>
                 <ul>
                     <li><strong>2023 - 2024 |<span style="color: purple;"> TP Développeur Web et web mobile</span></strong>
                 
@@ -86,18 +129,30 @@
                         </ul>
                     </li>
                 </ul>
+            <br>
+                <ul>
+                    <li><strong>2015 - 2015 |<span style="color: purple;"> cours chauffeur de taxi </span></strong>
+
+                        <ul>
+                            <li>UV1 Règlementation nationale</li>
+                            <li>UV2 Francais/Anglais/Compta</li>
+                            <li>UV3 reglementation départementale</li>
+                            <li>UV4 conduite</li>
+                        </ul>
+                    </li>
+                </ul>
         </section>  
 <hr>
 </main>    
     
 <footer>
-            <h2>Mes hobbys</h2>
+            <h2 id="hobbys">Mes hobbys</h2>
                 <ul>
-                    <li>Creation de Diamond painting</li>
+                    <li>Création de Diamond painting</li>
                     <li>Chaine twitch</li>
                     <li>Jeux vidéos</li>
                     <li>Sorties en famille</li>
-                    <li>Sport en foret et en VR </li>
+                    <li>Sport en forêt et en VR </li>
                 </ul>    
 
     <p>© 2023 Bourdeloux Corinne - Développeur Web</p>    

@@ -7,6 +7,12 @@ header {
     background-image: linear-gradient(rgba(196, 199, 240), rgba(43, 122, 226), rgba(196, 199, 240)); /*couleurs de fond dégradées*/
 }
 
+.box{
+    display: flex; /*Affichage en flex*/
+    align-items: flex-start; /*Alignement des éléments sur le haut*/
+    justify-self: space-between; /*Espace entre les éléments*/
+}
+
 main {
     
     background-color: rgb(202, 202, 245); /*Couleur de fond*/
@@ -33,12 +39,21 @@ img {
     margin-right: auto; /*Marge à droite automatique*/
     width: 20%; /*Largeur de l'image 20% de la taille reelle*/
     height: auto; /*Hauteur de l'image automatique par raport a la largeur*/
+    border: 4mm ridge rgb(43, 122, 226); /*Bordure de l'image*/
+    border-radius: 10%;
+}
+
+/*nav bar*/
+.navbar {
+    display: flex; /*Affichage en flex*/
+    justify-content: space-around; /*Espace entre les éléments*/
+    padding: 1em; /*Marge intérieure*/
 }
 
 /* class coordonnées (adresse...) */
 .coordonnees {
     text-align: center;/*Alignement du texte*/
-    color: grey;/*couleur du texte*/
+    color: rgb(32, 30, 30);/*couleur du texte*/
 
 }
 
